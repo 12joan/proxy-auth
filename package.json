@@ -1,0 +1,11 @@
+{
+  "name": "proxy-auth",
+  "version": "1.0.0",
+  "description": "Validate the presence of a token before proxying to upstream server",
+  "main": "index.js",
+  "author": "Joe Anderson",
+  "license": "MIT",
+  "scripts": {
+    "test": "cd test && yarn"
+  }
+}
