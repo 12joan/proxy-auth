@@ -8,10 +8,6 @@ services:
     environment:
       TOKEN: MY_TEST_TOKEN
       UPSTREAM: http://upstream:3000
-    volumes:
-      - ../nginx.conf:/nginx.conf.template:ro
 
   upstream:
     build: ./upstream
-    volumes:
-      - ./upstream:/app
