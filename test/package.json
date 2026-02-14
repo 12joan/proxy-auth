@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dc": "docker-compose",
+    "dc": "docker compose",
     "build": "yarn dc build",
     "start": "yarn dc up -d",
     "restart": "yarn dc restart",
